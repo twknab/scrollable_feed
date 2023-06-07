@@ -38,6 +38,9 @@ function ScrollableFeed(props) {
     }
 
     window.addEventListener("scroll", handleScroll);
+
+    // Returning a clean up method prevents duplicate scroll events
+    // Helpful resource: https://react.dev/learn/synchronizing-with-effects#subscribing-to-events
     return () => window.removeEventListener("scroll", handleScroll);
   }, [data, length, handleFetchData, handleScroll]);
 
