@@ -1,9 +1,5 @@
 # Scrollable Feed
 
-## Video Demo
-
-🎥 https://www.loom.com/share/989ad435774a4ff2892f67605bccd3cb
-
 ## How to Use Component
 
 - import `ScrollableFeed` component
